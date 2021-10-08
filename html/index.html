@@ -3,30 +3,11 @@
 <title>Husen Profile Page</title>
 <link rel="stylesheet" href="../styles/homePage.css" type="text/css">
 <link rel="icon" sizes="72x72" href="IIITH.jpeg" >
-   <script type="text/javascript">
-     $('loveit').click(function(e){
-  	e.preventDefault();
-    	var targetUrl = $(this).attr('rel');
-	$.ajax({
-        url: targetUrl,
-        type: "GET",
-        success:function(){
-            alert("done");
-            return false;
-        },
-        error:function (){
-            alert("testing error");
-        }
-    });
-});
-}
-
-</script>
 </head>
 <body class="body">
 <div class="topnav">
    <a class="active" href="homePage.html">Home</a>
-  <a class="loveit" href="javascript:;"rel="contact.html">Contact</a>
+  <a href="contact.html">Contact</a>
   <a href="education.html">Education</a>
   <a  href="Information.html">Information</a>
    <a href="videos.html">GATE Videos</a>
