@@ -3,22 +3,19 @@
 <title>Husen Profile Page</title>
 <link rel="stylesheet" href="../styles/homePage.css" type="text/css">
 <link rel="icon" sizes="72x72" href="IIITH.jpeg" >
-   <script>
-       window.history.pushState('new','title','index.html');
-      window.history.pushState('new','title','contact.html');
-      window.history.pushState('new','title','education.html');
-      window.history.pushState('new','title','Information.html');
-      window.history.pushState('new','title','videos.html');
-
+  <script>
+      function changeurl(url){
+         history.pushState(null,'',url);
+      }
    </script>
 </head>
 <body class="body">
 <div class="topnav">
-   <a class="active" href="homePage.html">Home</a>
-  <a href="contact.html">Contact</a>
-  <a href="education.html">Education</a>
-  <a  href="Information.html">Information</a>
-   <a href="videos.html">GATE Videos</a>
+   <button onclick="changeurl('index.html')"><a class="active" href="index.html">Home</a></button>
+  <button onclick="changeurl('contact.html')"><a href="contact.html">Contact</a>/button>
+  <button onclick="changeurl('education.html')"><a href="education.html">Education</a>/button>
+  <button onclick="changeurl('Information.html')"><a  href="Information.html">Information</a>/button>
+   <button onclick="changeurl('videos.html')"><a href="videos.html">GATE Videos</a>/button>
 </div> 
 <br><br><br>
 <div class="myDiv"><p>
