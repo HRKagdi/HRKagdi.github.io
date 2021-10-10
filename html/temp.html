@@ -3,20 +3,24 @@
 <title>Husen Profile Page</title>
 <link rel="stylesheet" href="../styles/homePage.css" type="text/css">
 <link rel="icon" sizes="72x72" href="IIITH.jpeg" >
-  <script>
-      function changeurl(url){
-         history.pushState('new','title',url);
-        
-      }
-   </script>
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 </head>
 <body class="body">
 <div class="topnav">
-   <button onclick="changeurl('/index.html')">Home</button>
-  <button onclick="changeurl('/contact.html')">Contact</button>
-  <button onclick="changeurl('/education.html')">Education</button>
-  <button onclick="changeurl('/Information.html')">Information</button>
-   <button onclick="changeurl('/videos.html')">GATE Videos</button>
+   <button onclick="myFunction()">Home</button>
+  <button onclick="myFunction()">Contact</button>
+  <button onclick="myFunction()">Education</button>
+  <button onclick="myFunction()">Information</button>
+   <button onclick="myFunction()">GATE Videos</button>
 </div> 
 <br><br><br>
 <div class="index">
