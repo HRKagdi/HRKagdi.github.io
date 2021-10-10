@@ -4,7 +4,9 @@
   background-attachment: fixed;
   background-size: cover;
 }
-
+.hidden{
+display: "none";
+}
 .myImage{
 	position: absolute;
 	top: 30px;
