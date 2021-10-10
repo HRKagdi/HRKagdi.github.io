@@ -5,7 +5,7 @@
   background-size: cover;
 }
 .hidden{
-display: "none";
+display: none;
 }
 .myImage{
 	position: absolute;
